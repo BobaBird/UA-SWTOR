@@ -1,15 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: 'Unholy Alliances',
+    title: 'Unholy Alliance',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
+    'eslint-plugin-jsx-ally',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Unholly Alliances',
-        short_name: 'starter',
+        name: 'Unholly Alliance',
+        short_name: 'UA',
         start_url: '/',
         background_color: 'black',
         theme_color: '#4d4d4d',
