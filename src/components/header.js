@@ -38,18 +38,44 @@ const HeaderContainer = styled.div`
   }
 `;
 
+const UserContainer = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  max-height: 10px;
+  
+  ul {
+    display: inline-flex;
+    justify-content: space-around;
+    list-style: none;
+
+  }
+  a {
+    margin-right: 25px;
+    color: #fff;
+    text-decoration: none;
+    color: orange;
+  }
+`;
+
+// const user = netlifyIdentity.currentUser();
+
 const Header = ({ siteTitle }) => (
-  <HeaderWrapper
-    
-  >
-    <HeaderContainer
-      
-    >
+  <HeaderWrapper>
+
+    <UserContainer data-netlify-identity-menu></UserContainer>
+
+    <HeaderContainer>
       <h1 style={{ margin: 0 }}>
         <Link to="/">
           {siteTitle}
         </Link>
       </h1>
+
 
       <ul>
           <li>
