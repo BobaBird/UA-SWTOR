@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 import Layout from '../components/layout';
@@ -26,7 +25,6 @@ const About = () => (
       <Container>
         <h1>About</h1>
         <p>Welcome to the About page.</p>
-        <Link to="/">Go back to the homepage</Link>
       </Container>
     </Layout>
   </OuterWrapper>   

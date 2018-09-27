@@ -53,25 +53,28 @@ const Header = ({ siteTitle }) => (
 
       <ul>
           <li>
-            <Link to="/About/">Go to About page</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/Calendar/">Go to Calendar page</Link>
+            <Link to="/About/">About</Link>
           </li>
           <li>
-            <Link to="/Forums/">Go to Forums page</Link>
+            <Link to="/Calendar/">Calendar</Link>
           </li>
           <li>
-            <Link to="/Discord/">Go to Discord page</Link>
+            <Link to="/Forums/">Forums</Link>
           </li>
           <li>
-            <Link to="/Extra-Life/">Go to Extra life page</Link>
+            <Link to="/Discord/">Discord</Link>
           </li>
           <li>
-            <Link to="/Gallery/">Go to Gallery page</Link>
+            <Link to="/Extra-Life/">Extra Life</Link>
           </li>
           <li>
-            <Link to="/Elder-Scrolls/">Go to Elder Scrolls page</Link>
+            <Link to="/Gallery/">Gallery</Link>
+          </li>
+          <li>
+            <Link to="/Elder-Scrolls/">Elder Scrolls</Link>
           </li>
         </ul>
 

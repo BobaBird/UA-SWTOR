@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 import Layout from '../components/layout';
@@ -27,7 +26,6 @@ const ExtraLife = () => (
         <h1>Extra Life</h1>
         <p>Welcome to your new Gatsby site.</p>
         <p>Now go build something great.</p>
-        <Link to="/">Go back to Home page</Link>
       </Container>
     </Layout>
   </OuterWrapper>
