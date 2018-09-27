@@ -5,7 +5,6 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
-    'eslint-plugin-jsx-ally',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
